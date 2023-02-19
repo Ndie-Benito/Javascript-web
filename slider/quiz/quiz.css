@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blue;
+}
+
+.result{
+     display: none;
+     padding: 50px;
+     text-align: center;
+}
+
+.container{
+    width: 800px;
+    height: 500px;background-color: aliceblue;
+    position: relative;
+}
+
+.submit{
+      background-color: blueviolet;
+      color: aliceblue;
+      border: none;
+      width: 100%;
+      height: 50px; 
+      cursor: pointer;
+      position: absolute;
+      bottom: 0; 
+}
+
+.content{
+    padding: 50px;
+}
+.question{
+    font-size: 40px;
+}
+.answer{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(56, 55, 70);
+}
+
+.game{
+    /* display: none; */
+}
+
+.result h1 {
+    font-size: 50px;
+}
+.correct{
+    color: green;
+}
+.wrong{
+    color: red;
+}
+
+.play{
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
